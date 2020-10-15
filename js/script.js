@@ -1,8 +1,9 @@
-function stylingSection() {
-  let section = document.getElementById("section");
-  section.classList.add("styled-section");
+function activeBurgerMenu() {
+  let burgerIcon = document.getElementById("burger-icon");
+  let navbar = document.getElementById("navbar");
 
-  let text = document.getElementById("helloWorld");
-  text.classList.add("colored-text");
+  burgerIcon.addEventListener('click', function(){
+    navbar.classList.toggle("change")
+  })
 }
-stylingSection()
+activeBurgerMenu()
