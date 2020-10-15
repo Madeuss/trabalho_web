@@ -5,9 +5,11 @@ function activeBurgerMenu() {
   burgerIcon.addEventListener('click', function(){
     navbar.classList.toggle("change")
   })
+  
+
 }
 activeBurgerMenu()
-stylingSection()
 
 
-$('.slider').slick();
+$('.slider-principal').slick();
+
