@@ -216,10 +216,14 @@ button.slick-next{
   margin: 0 auto;
   width: 50%;
   position: absolute;
-  left: 50%;
+  left: 45%;
   top: 95%;
 }
 
 li.slick-active button {
   background: rgb(40, 60, 97);
+}
+
+.slider-principal img{
+  height: calc(100vh - 100px);
 }
