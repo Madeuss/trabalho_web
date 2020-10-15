@@ -7,3 +7,7 @@ function activeBurgerMenu() {
   })
 }
 activeBurgerMenu()
+stylingSection()
+
+
+$('.slider').slick();
