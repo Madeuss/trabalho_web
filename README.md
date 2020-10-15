@@ -1,3 +1,5 @@
+<!-- Mateus - Criando o README do repo-->
+
 <h1 align="center">
     <img alt="MusikCity" title="#logo" src=".github/logo.png" width="250px" />
 </h1>
@@ -17,9 +19,9 @@
 
 <br>
 
-<p align="left">
+<!-- <p align="left">
   <img alt="Home Page" src=".github/home.gif" width="100%"/>
-</p>
+</p> -->
 
 ## :rocket: Technologies
 
