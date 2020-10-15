@@ -10,6 +10,11 @@ function activeBurgerMenu() {
 }
 activeBurgerMenu()
 
-
-$('.slider-principal').slick();
+//Carlos - Inserindo framework e adicionando alguns detalhes
+$('.slider-principal').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1
+});
 
