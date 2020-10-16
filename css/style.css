@@ -20,6 +20,7 @@ header {
   width: 100%;
   height: 100px;
   background-color: #151515;
+
 }
 
 .nav-wrapper {
@@ -41,6 +42,7 @@ header {
   justify-content: space-between;
   list-style-type: none;
   font-size: 2rem;
+  position: relative;
 }
 
 .links li a, .links .dropdown-link a{
@@ -80,10 +82,14 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-end;
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  z-index: 100;
 }
 
 .burger:hover > .line {
-  background-color: #fff;
+  background-color: #31b5ff;
   transition: 0.3s;
 }
 
@@ -153,6 +159,7 @@ header {
     padding: 180px 0 180px 0;
     align-items: center;
     transition: right 0.8s cubic-bezier(0.6, 0, 0, 0.9);
+    z-index: 99;
   }
 }
 
@@ -230,6 +237,11 @@ li.slick-active button {
 }
 
 /*Carlos - estilização home content*/
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .content-texto h1 {
   font-size: 30px;
@@ -247,41 +259,27 @@ li.slick-active button {
   margin-top: 1em;
 }
 
-.content-texto{
+.content-texto {
   text-align: center;
   margin-top: 3em;
 }
 
-.col-3 {
-  width: 20%;
-  float: left;
-  position: relative;
-  padding-left: 22%;
-  padding-right: 10px;
-  
-}
-
 .bloco-col {
-  margin-top: 4em;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
-  padding-bottom: 150px;
+  justify-content: space-around;
+  align-content: center;
+  height: 50vh;
+  padding: 80px;
 }
 
 .col-3 img{
   border-radius: 50%;
-  border: 4px solid #16114e;
-}
-
-.col-3:hover img{
-  border: 4px solid #7d73ec;
+  border: 3px solid #16114e;
 }
 
 .col-3 h3 {
   padding-top: 10px;
   padding-left: 40px;
-  
   text-transform: uppercase;
 
 }
@@ -299,39 +297,34 @@ li.slick-active button {
 }
 
 .content-mais {
-  padding-top: 150px;
-  padding-bottom: 200px;
+  padding: 150px 20px;
   height: 200px;
   background-color: #16114e;
-}
-
-.col-2 {
-  float: left; 
-}
-
-.button-contact {
-  padding-left: 400px;
-  position: absolute;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .texto-h1-home {
   color: #fff;
-  padding-left: 50px;
   font-size: 30px;
 }
 
 .button-contact a {  
   font: bold 12px/24px arial, helvetica;	
-  padding:0px;
   text-decoration: none;
   text-align:center;	
   color: #16114e;
+  margin: 10px auto;
   background: #fff
    no-repeat center center;	
   width:120px;  
-  height:24px;	
-  display:block;	
+  height:30px;	
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-contact a:hover { 
@@ -339,4 +332,14 @@ li.slick-active button {
   center center;
   color: #fff;
   border: 1px solid #fff;
+}
+
+@media (max-width: 850px) {
+  .bloco-col {
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+  }
 }

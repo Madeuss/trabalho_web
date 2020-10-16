@@ -16,7 +16,7 @@
       <section class="logo">
         <img src="../img/logo.png" alt="musikcity logo">
       </section>
-      <ul class="links hide-on-med-and-down">
+      <ul tabindex="-1" class="links hide-on-med-and-down">
         <li><a href="/html/home.html">Início</a></li>
 
         <ul class="dropdown-link">
@@ -60,41 +60,44 @@
   </div>
 
   <!--Carlos - Conteúdo home-->
-  <div class="content-texto">
-      <h1>Divulgação para <strong>produtores</strong> musicais</h1>
-      <p>Explore a MusikCity e conheça a maior vitrine musical do Brasil. Gravações, arranjos, contatos, compositores, parceirias e muito mais!</p>
-  </div>
+  <section class="home-content">
+    <div class="content-texto">
+        <h1>Divulgação para <strong>produtores</strong> musicais</h1>
+        <p>Explore a MusikCity e conheça a maior vitrine musical do Brasil. Gravações, arranjos, contatos, compositores, parceirias e muito mais!</p>
+    </div>
 
-  <div class="bloco-col">
-    <div class="col-3">
-    <div class="hugo"> 
-      <img src="../img/hugo-bellard.jpg"/>
-      <h3>HugoBellard</h3>
-    </div> 
+    <div class="bloco-col">
+      <div class="col-3">
+        <div class="hugo"> 
+          <img src="../img/hugo-bellard.jpg"/>
+          <h3>HugoBellard</h3>
+        </div> 
+      </div>
+      <div class="col-3">
+        <div class="sandy">
+          <img src="../img/sandy.jpg"/>
+          <h3>Sandy</h3>
+        </div>  
+      </div>
+      <div class="col-3">
+        <div class="eli">  
+          <img src="../img/elizangela.jpg" />
+          <h3>Elizangela</h3>       
+        </div>
+      </div>
     </div>
-    <div class="col-3">
-    <div class="sandy">
-      <img src="../img/sandy.jpg"/>
-      <h3>Sandy</h3>
-    </div>  
-    </div>
-    <div class="col-3">
-    <div class="eli">  
-      <img src="../img/elizangela.jpg" />
-      <h3>Elizangela</h3>       
-    </div>
-  </div>
-  </div>
 
-  <div class="content-mais">
-    <div class="col-2">
-        <h1 class="texto-h1-home">Gostou do que viu? Entre em contato conosco para mais informações</h1>
+    <div class="content-mais">
+      <div class="col-2">
+          <h1 class="texto-h1-home">Gostou do que viu? Entre em contato conosco para mais informações</h1>
+      </div>
+      <div class="col-2">      
+          <p class="button-contact">
+            <a href="../html/contact.html">CONTATO</a>
+          </p>
+      </div>  
     </div>
-    <div class="col-2">      
-        <p class="button-contact">
-          <a href="../html/contact.html">CONTATO</a>
-        </p>
-  </div>
+  </section>  
 
   <!-- Carlos - Importando framework slider-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
