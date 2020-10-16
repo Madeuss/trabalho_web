@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-color: rgb(40, 60, 97);
+  background-color: #ffffff;
   font-size: 1.6rem;
 }
 
@@ -227,4 +227,116 @@ li.slick-active button {
 
 .slider-principal img{
   height: calc(100vh - 100px);
+}
+
+/*Carlos - estilização home content*/
+
+.content-texto h1 {
+  font-size: 30px;
+  text-transform: uppercase;  
+  color: #334691
+}
+
+.content-texto strong {
+  color: #16114e;
+}
+
+.content-texto p {
+  font-size: 15px;
+  color: #534e56;
+  margin-top: 1em;
+}
+
+.content-texto{
+  text-align: center;
+  margin-top: 3em;
+}
+
+.col-3 {
+  width: 20%;
+  float: left;
+  position: relative;
+  padding-left: 22%;
+  padding-right: 10px;
+  
+}
+
+.bloco-col {
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-bottom: 150px;
+}
+
+.col-3 img{
+  border-radius: 50%;
+  border: 4px solid #16114e;
+}
+
+.col-3:hover img{
+  border: 4px solid #7d73ec;
+}
+
+.col-3 h3 {
+  padding-top: 10px;
+  padding-left: 40px;
+  
+  text-transform: uppercase;
+
+}
+
+.hugo h3{
+  padding-left: 10px;
+}
+
+.sandy h3{
+  padding-left: 50px;
+}
+
+.eli h3{
+  padding-left: 30px;
+}
+
+.content-mais {
+  padding-top: 150px;
+  padding-bottom: 200px;
+  height: 200px;
+  background-color: #16114e;
+}
+
+.col-2 {
+  float: left; 
+}
+
+.button-contact {
+  padding-left: 400px;
+  position: absolute;
+  
+}
+
+.texto-h1-home {
+  color: #fff;
+  padding-left: 50px;
+  font-size: 30px;
+}
+
+.button-contact a {  
+  font: bold 12px/24px arial, helvetica;	
+  padding:0px;
+  text-decoration: none;
+  text-align:center;	
+  color: #16114e;
+  background: #fff
+   no-repeat center center;	
+  width:120px;  
+  height:24px;	
+  display:block;	
+}
+
+.button-contact a:hover { 
+  background: #16114e
+  center center;
+  color: #fff;
+  border: 1px solid #fff;
 }
