@@ -343,3 +343,32 @@ li.slick-active button {
     padding: 100px;
   }
 }
+
+.massadas h3{
+  padding-left: 30px;
+}
+
+.lulu h3{
+  padding-left: 20px;
+}
+
+.rick h3 {
+  padding-left: 20px;
+}
+
+.search {
+  text-align: center;
+  padding-top: 30px;
+  border: 0px solid transparent;
+}
+
+.search input {
+  height: 36px;
+  margin-top: 10px;
+  padding-left: 10px;
+  background-image: url('../img/search.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid #262626 ;
+  width: 190px;
+}
