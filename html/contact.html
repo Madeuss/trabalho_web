@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/contact_style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet"> -->
+	
+</head>
+<body>
+	<header>
+    <nav class="nav-wrapper" id="navbar">
+      <section class="logo">
+        <a href="home.html"><img src="../img/logo.png" alt="musikcity logo"></a>
+      </section>
+      <ul tabindex="-1" class="links hide-on-med-and-down">
+        <li><a href="/html/home.html">Início</a></li>
+
+        <ul class="dropdown-link">
+          <a href="#">Divulgação</a>
+          <li class="dropdown-content">
+            <a href="./produtores.html">Produtores</a>
+            <br></br> 
+            <a href="#">Gravadoras</a> 
+            <br></br> 
+            <a href="#">Radialistas</a>  
+          </li>
+        </ul>
+
+        <ul class="dropdown-link">
+          <a href="#">Parcerias</a>
+          <li class="dropdown-content">
+            <a href="#">Dropdown</a>  
+          </li>
+        </ul>
+
+        <ul class="dropdown-link">
+          <a href="#">Outros</a>
+          <li class="dropdown-content">
+            <a href="#">Dropdown</a>  
+          </li>
+        </ul>
+        <ul class="dropdown-link">
+          <li><a href="./contact.html">Contato</a></li>
+        </ul>
+      </ul>
+      <div class="burger" id="burger-icon">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+    </nav>
+  </header>
+	<container class="container">
+		<div class="contact-box">
+			<aside class="left"></aside>
+			<form class="right" name="form">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" name="name" placeholder="Your Name" required>
+				<input type="text" class="field" name="email" placeholder="Your Email" required>
+				<input type="text" class="field" name="phone" placeholder="Phone" required>
+				<textarea class="field" id="message-input" name="" placeholder="Message" required></textarea>	
+				<button class="btn" type="submit" onclick="ValidateEmail(document.form.email)">Send</button>
+			</form>
+		</div>
+	</container>
+	<script src="../js/script.js"></script>
+</body>
+</html>
